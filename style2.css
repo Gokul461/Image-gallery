@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: red;
+
+}
+
+.header {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    text-align: center;
+    justify-content: space-around;
+    width: 210px;
+    height: 400px;
+    color: white;
+    margin: 10px;
+    border: solid black 5px;
+    padding: 5px;
+    flex-basis: 20%;
+}
